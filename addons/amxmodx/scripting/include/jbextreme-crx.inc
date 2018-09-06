@@ -4,6 +4,10 @@
 
 #define _jbextreme_crx_included
 
+#include <jbextreme-crx_const>
+
+forward jb_simon_selected(id)
+forward jb_simon_reset(JBSimonReset:reason)
 native get_jail_day()
 native get_players_in_team(CsTeams:team, bool:alive = false)
 native bool:is_block_weapons_enabled()
